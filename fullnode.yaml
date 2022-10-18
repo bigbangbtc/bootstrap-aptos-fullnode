@@ -12,9 +12,10 @@ full_node_networks:
     discovery_method: "onchain"
     listen_address: "/ip4/0.0.0.0/tcp/6182"
     max_inbound_connections: 100
-    identity:
-      type: "from_file"
-      path: "/opt/aptos/genesis/validator-full-node-identity.yaml"
+    ## removed this part suggested by https://discord.com/channels/945856774056083548/953421979136962560/1031789988075032576
+    # identity:
+    #   type: "from_file"
+    #   path: "/opt/aptos/genesis/validator-full-node-identity.yaml"
 
 mempool:
   shared_mempool_max_concurrent_inbound_syncs: 16 # default 4
