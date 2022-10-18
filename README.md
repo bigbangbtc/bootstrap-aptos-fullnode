@@ -24,11 +24,8 @@
 ### Steps to bootstrap your full node:
 
 
-1. generate keys
+~ 1. generate keys: aptos genesis generate-keys --output-dir keys ~
 
-```
-$ aptos genesis generate-keys --output-dir keys
-```
 
 2. bootstrap
 ```
